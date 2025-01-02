@@ -1,0 +1,222 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #5f8be4; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #2f6777;
+}
+
+body {
+  background-color: #055331;
+  background-color: #099156;
+  /* color: white; */
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* From Uiverse.io by adamgiebl */
+.w-100 {
+  border-radius: 13px;
+}
+
+button {
+  --green: yellow;
+  /* font-size: 15px; */
+  /* font-size: 15px; */
+  padding: 0.7em 2.7em;
+  letter-spacing: 0.06em;
+  position: relative;
+  font-family: inherit;
+  /* border-radius: 3px; */
+  overflow: hidden;
+  transition: all 0.3s;
+  line-height: 1.4em;
+  border: 2px solid var(--green);
+  background: linear-gradient(to right, rgba(206, 235, 43, 0.1) 1%, transparent 40%, transparent 60%, rgba(27, 253, 156, 0.1) 100%);
+  color: var(--green);
+  box-shadow: inset 0 0 10px rgba(5, 252, 145, 0.4), 0 0 9px 3px rgba(248, 252, 250, 0.1);
+}
+
+button:hover {
+  color: #08f08b;
+  box-shadow: inset 0 0 10px rgba(233, 235, 133, 0.6), 0 0 9px 3px rgba(115, 243, 187, 0.2);
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  left: -4em;
+  width: 4em;
+  height: 100%;
+  top: 0;
+  transition: transform .4s ease-in-out;
+  background: linear-gradient(to right, transparent 2%, rgba(255, 253, 119, 0.1) 40%, rgba(155, 235, 200, 0.1) 60%, transparent 100%);
+}
+
+button:hover:before {
+  transform: translateX(15em);
+}
+
+
+
+
+
+
+
+/* ComputerScience.css */
+
+/* ComputerScience.css */
+
+.computer-science-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #055331;
+  height: 100vh;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.container {
+  width: 80%;
+  max-width: 800px;
+  background-color: #055331;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.page-title {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 30px;
+}
+
+.table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.scrollable-table {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.animated-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.animated-table th,
+.animated-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.animated-table th {
+
+  color: #fff;
+  font-weight: bold;
+}
+
+.animated-table td {
+  background-color: #055331;
+  color: #ffffff;
+}
+
+
+
+
+
+.scrollable-table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable-table::-webkit-scrollbar-thumb {
+  background-color: #eeff00;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+.heading {
+  text-align: center;
+  padding: 45px;
+  color: white;
+  background-color: #055331;
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;}
+
+
+  .form-control {
+    max-width: 700px;
+  }
+
+  .text-reset {
+    text-decoration: none; /* Removes the underline */
+  }
+  
+  .text-reset:hover {
+    text-decoration: underline; /* Optional: Adds underline on hover for better user experience */
+  }
+  
