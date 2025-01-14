@@ -43,7 +43,7 @@ export default function App() {
                 <p>
 
 
-                  Student Resource Hub is a dedicated educational
+                <strong>Student Resource Hub</strong>   is a dedicated educational
                   platform designed to empower students by providing access
                   to comprehensive resources, learning materials, and tools.
                   Our mission is to foster academic excellence and support
@@ -55,22 +55,22 @@ export default function App() {
               <MDBCol md="2" lg="2" xl="2" className='mx-auto mb-4'>
   <h6 className='text-uppercase fw-bold mb-4'>Quizzes</h6>
   <p>
-    <a href='/quizzes/aptitude' className='text-reset'>
-      Aptitude Tests
+    <a href='https://mind-spark-quizz-kb4fc46va-awaiszahid331s-projects.vercel.app/' className='text-reset'>
+      Reaact.Js Quizzes
     </a>
   </p>
   <p>
-    <a href='/quizzes/science' className='text-reset'>
-      Science Quizzes
+    <a href='https://mind-spark-quizz-kb4fc46va-awaiszahid331s-projects.vercel.app/' className='text-reset'>
+      Python Quizzes
     </a>
   </p>
   <p>
-    <a href='/quizzes/math' className='text-reset'>
-      Math Challenges
+    <a href='https://mind-spark-quizz-kb4fc46va-awaiszahid331s-projects.vercel.app/' className='text-reset'>
+      javaScript Quizzes
     </a>
   </p>
   <p>
-    <a href='/quizzes/general-knowledge' className='text-reset'>
+    <a href='https://mind-spark-quizz-kb4fc46va-awaiszahid331s-projects.vercel.app/' className='text-reset' target='blank'>
       General Knowledge
     </a>
   </p>
@@ -94,11 +94,11 @@ export default function App() {
                     Resources
                   </a>
                 </p>
-                <p>
+                {/* <p>
                   <a href='/contact' className='text-reset'>
                     Contact Us
                   </a>
-                </p>
+                </p> */}
 
               </MDBCol>
 
@@ -113,6 +113,11 @@ export default function App() {
                   <MDBIcon icon="envelope" className="me-3" />
                   zahidawais31@gmail.com
                 </p>
+                <p>
+                <MDBIcon icon="user" className="me-3" />
+
+                  <a href="https://next-portfolio-g1qj1axej-awaiszahid331s-projects.vercel.app/" style={{color:"white"}} target='blank'>Awais Zahid</a>
+                </p>
 
               </MDBCol>
             </MDBRow>
@@ -120,7 +125,7 @@ export default function App() {
         </section>
 
         <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
-          © 2024 Copyright:
+          © 2025 Copyright: Made by <a href="https://next-portfolio-g1qj1axej-awaiszahid331s-projects.vercel.app/" style={{color:"white"}} target='blank'>Awais Zahid</a>
           {/* <a className='text-reset fw-bold' href=''>
             MDBootstrap.com
           </a> */}
